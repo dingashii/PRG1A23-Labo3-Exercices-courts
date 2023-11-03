@@ -9,7 +9,15 @@ using namespace std;
 // contient le caractère (hors espace ' ') le plus fréquent dans ce fichier,
 // ainsi que le nombre de fois qu'il apparait. Ce nombre est négatif
 // si le fichier est illisible.
+struct caracter {
+    char c;
+    int aparitions;
+};
 
+caracter caractere_le_plus_frequent(string filename){
+
+
+}
 
 int main() {
    cout << "Entrez le nom du fichier : " << flush;
